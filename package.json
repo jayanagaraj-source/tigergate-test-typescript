@@ -1,1 +1,1 @@
-{"name":"tigergate-test-typescript","private":true,"scripts":{"test":"ts-node tests/test_app.ts"},"devDependencies":{"ts-node":"^10.9.2","typescript":"^5.7.3"}}
+{"name":"tigergate-test-typescript","private":true,"scripts":{"test":"ts-node tests/test_app.ts"},"dependencies":{"lodash":"4.17.15"},"devDependencies":{"ts-node":"^10.9.2","typescript":"^5.7.3"}}
