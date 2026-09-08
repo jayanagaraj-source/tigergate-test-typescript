@@ -1,0 +1,15 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tigergate-test-typescript
+spec:
+  replicas: 1
+  selector:
+    matchLabels: { app: tigergate-test-typescript }
+  template:
+    metadata:
+      labels: { app: tigergate-test-typescript }
+    spec:
+      containers:
+        - name: app
+          image: tigergate-test-typescript:latest
