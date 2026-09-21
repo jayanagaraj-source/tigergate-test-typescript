@@ -10,6 +10,9 @@
 # Project dependencies themselves are NEVER installed: this repo's Python pins
 # are deliberately unbuildable (see SECURITY_FIXTURES.md), and TigerGate reads
 # requirements*.txt / pyproject.toml statically.
+
+
+
 name: TigerGate Security Scan
 
 on:
